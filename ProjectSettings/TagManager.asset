@@ -47,5 +47,8 @@ TagManager:
   - name: characters
     uniqueID: 605645783
     locked: 0
+  - name: essense
+    uniqueID: 3554874673
+    locked: 0
   m_RenderingLayers:
   - Default
