@@ -13,4 +13,9 @@ public class StartRunButton : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(runSceneName);
     }
+
+    public void TestClick()
+    {
+        Debug.Log("BUTTON CLICKED");
+    }
 }

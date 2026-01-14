@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 4608032197531058061}
   - component: {fileID: 6255063030281336245}
   - component: {fileID: 5254250975220370731}
+  - component: {fileID: 5362992878997130581}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +102,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8838434626679153186}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 332fccbcf43d90644b7af06a22ae1633, type: 3}
   m_Name: 
@@ -171,3 +172,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0.07243478, y: 0.032662075}
   m_Size: {x: 1.6885293, y: 2.9284022}
   m_Direction: 0
+--- !u!114 &5362992878997130581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8838434626679153186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c8c089b106e07c47b5d208eff1f1ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  stats: {fileID: 0}
+  currentHp: 0
